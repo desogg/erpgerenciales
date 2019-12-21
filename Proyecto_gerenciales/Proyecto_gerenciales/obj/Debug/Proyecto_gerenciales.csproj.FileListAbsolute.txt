@@ -1,0 +1,12 @@
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.exe.config
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.exe
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.pdb
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csprojAssemblyReference.cache
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Finanzas.resources
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Form1.resources
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Properties.Resources.resources
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csproj.GenerateResource.cache
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.exe
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.pdb
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporte_compras.resources
+C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporteventas.resources
