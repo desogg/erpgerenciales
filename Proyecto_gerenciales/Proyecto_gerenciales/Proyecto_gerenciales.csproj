@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="conexion.cs" />
+    <Compile Include="CrearClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearClientes.Designer.cs">
+      <DependentUpon>CrearClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Finanzas.cs">
       <SubType>Form</SubType>
     </Compile>

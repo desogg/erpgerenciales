@@ -1,9 +1,9 @@
-create database Proyecto_gerenciales;
 drop database Proyecto_gerenciales;
+create database Proyecto_gerenciales;
 use Proyecto_gerenciales;
 
 CREATE TABLE cliente (
-    codigo             INTEGER NOT NULL,
+    codigo             INTEGER NOT NULL IDENTITY,
     nombre_entidad     VARCHAR(50),
     nombre_encargado   VARCHAR(50),
     telefono           INTEGER,
@@ -19,7 +19,7 @@ ALTER TABLE Cliente ADD constraint cliente_pk PRIMARY KEY CLUSTERED (Codigo)
      ALLOW_ROW_LOCKS = ON ) 
 
 CREATE TABLE compra (
-    codigo_compra            INTEGER NOT NULL,
+    codigo_compra            INTEGER NOT NULL IDENTITY,
     costo                    FLOAT,
     descripcion              VARCHAR(50),
     fecha                    VARCHAR(50),
@@ -35,7 +35,7 @@ ALTER TABLE Compra ADD constraint compra_pk PRIMARY KEY CLUSTERED (Codigo_compra
      ALLOW_ROW_LOCKS = ON ) 
 
 CREATE TABLE consulta (
-    codigo_consulta   INTEGER NOT NULL,
+    codigo_consulta   INTEGER NOT NULL IDENTITY,
     descripcion       VARCHAR(50),
     estado            INTEGER,
     cliente_codigo    INTEGER NOT NULL
@@ -49,7 +49,7 @@ ALTER TABLE Consulta ADD constraint consulta_pk PRIMARY KEY CLUSTERED (Codigo_co
      ALLOW_ROW_LOCKS = ON ) 
 
 CREATE TABLE cuentav1 (
-    codigo_cuenta   INTEGER NOT NULL,
+    codigo_cuenta   INTEGER NOT NULL IDENTITY,
     nombre          VARCHAR(50),
     descripcion     VARCHAR(50)
 )
@@ -62,7 +62,7 @@ ALTER TABLE Cuentav1 ADD constraint cuentav1_pk PRIMARY KEY CLUSTERED (Codigo_cu
      ALLOW_ROW_LOCKS = ON ) 
 
 CREATE TABLE tipo_venta (
-    codigo_venta   INTEGER NOT NULL,
+    codigo_venta   INTEGER NOT NULL IDENTITY,
     descripcion    VARCHAR(50)
 )
 
@@ -74,7 +74,7 @@ ALTER TABLE Tipo_venta ADD constraint tipo_venta_pk PRIMARY KEY CLUSTERED (Codig
      ALLOW_ROW_LOCKS = ON ) 
 
 CREATE TABLE venta (
-    codigo_venta              INTEGER NOT NULL,
+    codigo_venta              INTEGER NOT NULL IDENTITY,
     descripcion               VARCHAR(50),
     precio                    INTEGER,
     mes                       INTEGER,
