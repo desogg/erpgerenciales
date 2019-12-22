@@ -53,6 +53,12 @@
     <Compile Include="CrearClientes.Designer.cs">
       <DependentUpon>CrearClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarClientes.Designer.cs">
+      <DependentUpon>EditarClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Finanzas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyecto_gerencialesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Proyecto_gerencialesDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Reporteventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="CrearClientes.resx">
       <DependentUpon>CrearClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarClientes.resx">
+      <DependentUpon>EditarClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Finanzas.resx">
       <DependentUpon>Finanzas.cs</DependentUpon>
@@ -121,6 +135,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Proyecto_gerencialesDataSet.xsc">
+      <DependentUpon>Proyecto_gerencialesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Proyecto_gerencialesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Proyecto_gerencialesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Proyecto_gerencialesDataSet.xss">
+      <DependentUpon>Proyecto_gerencialesDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
