@@ -25,3 +25,19 @@ C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenc
 C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.pdb
 C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.CrearClientes.resources
 C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.MenuClientes.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.CrearClientes.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Finanzas.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.MenuClientes.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporteventas.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporte_compras.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.MenuVentas.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmCrearPedido.resources

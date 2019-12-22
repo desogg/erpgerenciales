@@ -34,5 +34,11 @@ namespace Proyecto_gerenciales
             menu.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MenuVentas mv = new MenuVentas();
+            mv.Show();
+        }
     }
 }

@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Proyecto_gerenciales</RootNamespace>
     <AssemblyName>Proyecto_gerenciales</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -65,11 +66,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCrearPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrearPedido.Designer.cs">
+      <DependentUpon>frmCrearPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuClientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuClientes.Designer.cs">
       <DependentUpon>MenuClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuVentas.Designer.cs">
+      <DependentUpon>MenuVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,8 +107,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearPedido.resx">
+      <DependentUpon>frmCrearPedido.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuClientes.resx">
       <DependentUpon>MenuClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuVentas.resx">
+      <DependentUpon>MenuVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,6 +124,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reporteventas.resx">
       <DependentUpon>Reporteventas.cs</DependentUpon>
