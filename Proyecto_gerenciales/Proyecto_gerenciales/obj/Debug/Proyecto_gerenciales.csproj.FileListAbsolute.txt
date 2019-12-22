@@ -10,3 +10,16 @@ C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debu
 C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.pdb
 C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporte_compras.resources
 C:\Users\Roberto\source\repos\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporteventas.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.exe.config
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.exe
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\bin\Debug\Proyecto_gerenciales.pdb
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csprojAssemblyReference.cache
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Finanzas.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Form1.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Properties.Resources.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporteventas.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.Reporte_compras.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csproj.GenerateResource.cache
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.exe
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.pdb
