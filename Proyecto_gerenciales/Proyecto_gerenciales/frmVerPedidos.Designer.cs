@@ -55,9 +55,9 @@
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(605, 268);
+            this.btnGenerar.Location = new System.Drawing.Point(605, 263);
             this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.Size = new System.Drawing.Size(123, 26);
+            this.btnGenerar.Size = new System.Drawing.Size(123, 31);
             this.btnGenerar.TabIndex = 1;
             this.btnGenerar.Text = "Generar";
             this.btnGenerar.UseVisualStyleBackColor = true;

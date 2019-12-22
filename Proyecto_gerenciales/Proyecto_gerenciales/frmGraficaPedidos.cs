@@ -30,20 +30,15 @@ namespace Proyecto_gerenciales
 
             try
             {
-                cadena = "select v.codigo_venta codigo, v.descripcion, v.precio, v.fecha, c.nombre_entidad cliente, tv.descripcion tipo from venta v inner join cliente c on v.cliente_codigo=c.codigo inner join tipo_venta tv on v.tipo_venta_codigo_venta=tv.codigo_venta";
+                cadena = "select c.nombre_entidad cliente, sum(v.precio) total from venta v inner join cliente c on v.cliente_codigo=c.codigo group by c.nombre_entidad";
                 comando = new SqlCommand(cadena, Conexion.conetarbase);
                 lector = comando.ExecuteReader();
 
-                dt = new DataTable();
-                dt.Columns.Add("codigo", typeof(int));
-                dt.Columns.Add("descripcion", typeof(string));
-                dt.Columns.Add("precio", typeof(int));
-                dt.Columns.Add("fecha", typeof(string));
-                dt.Columns.Add("cliente", typeof(string));
-                dt.Columns.Add("tipo", typeof(string));
-                dt.Load(lector);
+                while (lector.Read())
+                {
+                    this.chart1.Series["Total"].Points.AddXY(lector.GetString(0), lector.GetInt32(1));
+                }
 
-                chart1.DataSource = dt;
             }
             catch (Exception ex)
             {

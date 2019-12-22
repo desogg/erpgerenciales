@@ -81,7 +81,7 @@ namespace Proyecto_gerenciales
                     cadena = "insert into venta(codigo_venta,descripcion,precio,mes,fecha,cliente_codigo,tipo_venta_codigo_venta) values(" + rInt + ",'" + txtDescripcion.Text + "'," + Convert.ToInt32(Math.Floor(Convert.ToDouble(lblTotal.Text))) + "," + dtpFecha.Value.ToString("MM") + ",'" + dtpFecha.Value + "'," + cmbCliente.SelectedValue + "," + cmbTipoVenta.SelectedValue + ")";
                     comando = new SqlCommand(cadena, Conexion.conetarbase);
                     lector = comando.ExecuteReader();
-                    MessageBox.Show("Pedidio creado con exito...");
+                    MessageBox.Show("Pedido creado con exito...");
                 }
                 catch (Exception ex)
                 {

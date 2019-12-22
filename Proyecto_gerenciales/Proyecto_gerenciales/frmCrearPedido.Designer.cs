@@ -176,9 +176,9 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(167, 390);
+            this.btnGuardar.Location = new System.Drawing.Point(150, 395);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(89, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(107, 29);
             this.btnGuardar.TabIndex = 6;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -188,7 +188,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(280, 425);
+            this.ClientSize = new System.Drawing.Size(280, 436);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -200,7 +200,7 @@
             this.MinimizeBox = false;
             this.Name = "frmCrearPedido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Factura";
+            this.Text = "Pedido";
             this.Load += new System.EventHandler(this.frmCrearPedido_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
