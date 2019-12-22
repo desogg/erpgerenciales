@@ -23,3 +23,5 @@ C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenc
 C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csproj.CoreCompileInputs.cache
 C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.exe
 C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.pdb
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.CrearClientes.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.MenuClientes.resources

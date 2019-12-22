@@ -10,28 +10,17 @@ using System.Windows.Forms;
 
 namespace Proyecto_gerenciales
 {
-    public partial class Form1 : Form
+    public partial class MenuClientes : Form
     {
-        public Form1()
+        public MenuClientes()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Finanzas MostrarFinanzas = new Finanzas();
-            MostrarFinanzas.Show();
-        }
-
         private void Button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            MenuClientes menu = new MenuClientes();
-            menu.Show();
+            CrearClientes crearclientes = new CrearClientes();
+            crearclientes.Show();
             this.Hide();
         }
     }
