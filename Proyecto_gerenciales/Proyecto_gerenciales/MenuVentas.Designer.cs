@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnReporte = new System.Windows.Forms.Button();
+            this.btnGraficaPedidos = new System.Windows.Forms.Button();
             this.btnVerPedidos = new System.Windows.Forms.Button();
             this.btnCrearPedido = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -37,7 +37,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnReporte);
+            this.groupBox1.Controls.Add(this.btnGraficaPedidos);
             this.groupBox1.Controls.Add(this.btnVerPedidos);
             this.groupBox1.Controls.Add(this.btnCrearPedido);
             this.groupBox1.Location = new System.Drawing.Point(15, 20);
@@ -47,14 +47,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Pedidos";
             // 
-            // btnReporte
+            // btnGraficaPedidos
             // 
-            this.btnReporte.Location = new System.Drawing.Point(29, 152);
-            this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(194, 47);
-            this.btnReporte.TabIndex = 5;
-            this.btnReporte.Text = "Reporte";
-            this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnGraficaPedidos.Location = new System.Drawing.Point(29, 152);
+            this.btnGraficaPedidos.Name = "btnGraficaPedidos";
+            this.btnGraficaPedidos.Size = new System.Drawing.Size(194, 47);
+            this.btnGraficaPedidos.TabIndex = 5;
+            this.btnGraficaPedidos.Text = "Grafica de Pedidos";
+            this.btnGraficaPedidos.UseVisualStyleBackColor = true;
+            this.btnGraficaPedidos.Click += new System.EventHandler(this.btnGraficaPedidos_Click);
             // 
             // btnVerPedidos
             // 
@@ -64,6 +65,7 @@
             this.btnVerPedidos.TabIndex = 4;
             this.btnVerPedidos.Text = "Ver Pedidos";
             this.btnVerPedidos.UseVisualStyleBackColor = true;
+            this.btnVerPedidos.Click += new System.EventHandler(this.btnVerPedidos_Click);
             // 
             // btnCrearPedido
             // 
@@ -94,7 +96,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnReporte;
+        private System.Windows.Forms.Button btnGraficaPedidos;
         private System.Windows.Forms.Button btnVerPedidos;
         private System.Windows.Forms.Button btnCrearPedido;
 

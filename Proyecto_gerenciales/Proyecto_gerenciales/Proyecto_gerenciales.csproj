@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -71,6 +72,18 @@
     </Compile>
     <Compile Include="frmCrearPedido.Designer.cs">
       <DependentUpon>frmCrearPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGraficaPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGraficaPedidos.Designer.cs">
+      <DependentUpon>frmGraficaPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerPedidos.Designer.cs">
+      <DependentUpon>frmVerPedidos.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuClientes.cs">
       <SubType>Form</SubType>
@@ -109,6 +122,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCrearPedido.resx">
       <DependentUpon>frmCrearPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGraficaPedidos.resx">
+      <DependentUpon>frmGraficaPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerPedidos.resx">
+      <DependentUpon>frmVerPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuClientes.resx">
       <DependentUpon>MenuClientes.cs</DependentUpon>

@@ -22,5 +22,17 @@ namespace Proyecto_gerenciales
             frmCrearPedido fcp = new frmCrearPedido();
             fcp.Show();
         }
+
+        private void btnVerPedidos_Click(object sender, EventArgs e)
+        {
+            frmVerPedidos fvp = new frmVerPedidos();
+            fvp.Show();
+        }
+
+        private void btnGraficaPedidos_Click(object sender, EventArgs e)
+        {
+            frmGraficaPedidos fgp = new frmGraficaPedidos();
+            fgp.Show();
+        }
     }
 }

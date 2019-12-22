@@ -41,3 +41,5 @@ C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proy
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.MenuVentas.resources
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmCrearPedido.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmVerPedidos.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmGraficaPedidos.resources
