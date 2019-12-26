@@ -39,6 +39,7 @@
             // Pedidos
             // 
             this.Pedidos.Controls.Add(this.dgvPedidos);
+            this.Pedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Pedidos.Location = new System.Drawing.Point(12, 12);
             this.Pedidos.Name = "Pedidos";
             this.Pedidos.Size = new System.Drawing.Size(716, 233);
@@ -56,6 +57,7 @@
             // 
             // btnGenerar
             // 
+            this.btnGenerar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnGenerar.Location = new System.Drawing.Point(605, 263);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(123, 31);

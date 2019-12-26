@@ -41,6 +41,7 @@
             this.groupBox1.Controls.Add(this.btnGraficaPedidos);
             this.groupBox1.Controls.Add(this.btnVerPedidos);
             this.groupBox1.Controls.Add(this.btnCrearPedido);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.groupBox1.Location = new System.Drawing.Point(15, 20);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(253, 224);
@@ -50,6 +51,7 @@
             // 
             // btnGraficaPedidos
             // 
+            this.btnGraficaPedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnGraficaPedidos.Location = new System.Drawing.Point(29, 152);
             this.btnGraficaPedidos.Name = "btnGraficaPedidos";
             this.btnGraficaPedidos.Size = new System.Drawing.Size(194, 47);
@@ -60,6 +62,7 @@
             // 
             // btnVerPedidos
             // 
+            this.btnVerPedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnVerPedidos.Location = new System.Drawing.Point(29, 99);
             this.btnVerPedidos.Name = "btnVerPedidos";
             this.btnVerPedidos.Size = new System.Drawing.Size(194, 47);
@@ -70,6 +73,7 @@
             // 
             // btnCrearPedido
             // 
+            this.btnCrearPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnCrearPedido.Location = new System.Drawing.Point(29, 46);
             this.btnCrearPedido.Name = "btnCrearPedido";
             this.btnCrearPedido.Size = new System.Drawing.Size(193, 47);
