@@ -10,7 +10,7 @@ namespace Proyecto_gerenciales
 {
     class conexion
     {
-        string cadena = "server = DESKTOP-EGPF97K\\SQLEXPRESS; database = Proyecto_gerenciales; integrated security = true ";
+        string cadena = "server = DIEGO-PC; database = Proyecto_gerenciales; integrated security = true ";
         public SqlConnection conetarbase = new SqlConnection();
 
         public void conexionbd()

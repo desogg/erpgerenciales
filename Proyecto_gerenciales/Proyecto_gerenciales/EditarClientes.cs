@@ -21,8 +21,34 @@ namespace Proyecto_gerenciales
         private String codigoCliente = "";
         private void EditarClientes_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'proyecto_gerencialesDataSet.cliente' table. You can move, or remove it, as needed.
-            this.clienteTableAdapter.Fill(this.proyecto_gerencialesDataSet.cliente);
+            conexion Conexion = new conexion();
+            Conexion.abrir();
+            string cadena = "select * from cliente";
+            SqlCommand command = new SqlCommand(cadena, Conexion.conetarbase);
+            SqlDataReader reader = command.ExecuteReader();
+            SqlDataReader sqlDataReader = reader;
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("codigo");
+            dataTable.Columns.Add("nombre_entidad");
+            dataTable.Columns.Add("nombre_encargado");
+            dataTable.Columns.Add("telefono");
+            dataTable.Columns.Add("direccion");
+            dataTable.Columns.Add("email");
+            while (sqlDataReader.Read())
+            {
+                DataRow row = dataTable.NewRow();
+                row["codigo"] = sqlDataReader["codigo"];
+                row["nombre_entidad"] = sqlDataReader["nombre_entidad"];
+                row["nombre_encargado"] = sqlDataReader["nombre_encargado"];
+                row["telefono"] = sqlDataReader["telefono"];
+                row["direccion"] = sqlDataReader["direccion"];
+                row["email"] = sqlDataReader["email"];
+                dataTable.Rows.Add(row);
+            }
+            dataGridView1.DataSource = dataTable;
+
+            Conexion.cerrar();
+        
 
         }
 
@@ -51,6 +77,8 @@ namespace Proyecto_gerenciales
                 }
             }
         }
+
+      
 
         private void TxtNombre_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -93,13 +121,15 @@ namespace Proyecto_gerenciales
 
         }
 
-        private void DataGridView1_SelectionChanged(object sender, EventArgs e)
+           
+
+        private void DataGridView1_SelectionChanged_1(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in dataGridView1.SelectedRows)
             {
                 codigoCliente = row.Cells[0].Value.ToString();
                 txtNombre.Text = row.Cells[1].Value.ToString();
-                txtEncargado.Text= row.Cells[2].Value.ToString();
+                txtEncargado.Text = row.Cells[2].Value.ToString();
                 txtTelefono.Text = row.Cells[3].Value.ToString();
                 txtDireccion.Text = row.Cells[4].Value.ToString();
                 txtEmail.Text = row.Cells[5].Value.ToString();

@@ -43,3 +43,8 @@ C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proy
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmCrearPedido.resources
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmVerPedidos.resources
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmGraficaPedidos.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.EditarClientes.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmCrearPedido.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmGraficaPedidos.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.frmVerPedidos.resources
+C:\Users\Diego\Documents\Gerenciales1\Laboratorio\erpgerenciales\Proyecto_gerenciales\Proyecto_gerenciales\obj\Debug\Proyecto_gerenciales.MenuVentas.resources
