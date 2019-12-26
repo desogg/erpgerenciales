@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVerPedidos));
             this.Pedidos = new System.Windows.Forms.GroupBox();
             this.dgvPedidos = new System.Windows.Forms.DataGridView();
             this.btnGenerar = new System.Windows.Forms.Button();
@@ -70,6 +71,7 @@
             this.ClientSize = new System.Drawing.Size(744, 306);
             this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.Pedidos);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmVerPedidos";

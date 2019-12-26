@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCrearPedido));
             this.cmbCliente = new System.Windows.Forms.ComboBox();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.cmbTipoVenta = new System.Windows.Forms.ComboBox();
@@ -196,6 +197,7 @@
             this.Controls.Add(this.cmbTipoVenta);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.cmbCliente);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmCrearPedido";
