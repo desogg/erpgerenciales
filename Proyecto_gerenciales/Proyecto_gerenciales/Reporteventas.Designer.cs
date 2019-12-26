@@ -160,7 +160,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reporteventas";
-            this.Text = "Reporteventas";
+            this.Text = "Reporte Ventas";
             this.ResumeLayout(false);
 
         }

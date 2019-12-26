@@ -190,7 +190,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CrearClientes";
-            this.Text = "CrearClientes";
+            this.Text = "Crear Clientes";
             this.Load += new System.EventHandler(this.CrearClientes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

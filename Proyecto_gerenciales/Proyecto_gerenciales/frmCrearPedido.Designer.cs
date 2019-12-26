@@ -202,7 +202,7 @@
             this.MinimizeBox = false;
             this.Name = "frmCrearPedido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Pedido";
+            this.Text = "Crear Pedido";
             this.Load += new System.EventHandler(this.frmCrearPedido_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
