@@ -25,7 +25,8 @@ namespace Proyecto_gerenciales
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            MenuServicios MostrarServicios = new MenuServicios();
+            MostrarServicios.Show();
         }
 
         private void Button2_Click(object sender, EventArgs e)

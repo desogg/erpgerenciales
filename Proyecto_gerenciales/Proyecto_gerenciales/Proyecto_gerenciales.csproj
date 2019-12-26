@@ -85,6 +85,24 @@
     <Compile Include="frmGraficaPedidos.Designer.cs">
       <DependentUpon>frmGraficaPedidos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGraficaQuejas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGraficaQuejas.Designer.cs">
+      <DependentUpon>frmGraficaQuejas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuejas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuejas.Designer.cs">
+      <DependentUpon>frmQuejas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuServicios.Designer.cs">
+      <DependentUpon>MenuServicios.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVerPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +157,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGraficaPedidos.resx">
       <DependentUpon>frmGraficaPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGraficaQuejas.resx">
+      <DependentUpon>frmGraficaQuejas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuejas.resx">
+      <DependentUpon>frmQuejas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuServicios.resx">
+      <DependentUpon>MenuServicios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVerPedidos.resx">
       <DependentUpon>frmVerPedidos.cs</DependentUpon>
